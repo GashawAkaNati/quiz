@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 400px;
+    height: max-content;
+    background-color: aliceblue;
+    position: absolute;
+    top: 100px;
+    left: 35%;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+button {
+    top: 10px;
+    width: 350px;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.next {
+    width: max-content;
+    display: none;
+}
+
+.correct {
+    background: rgb(118, 214, 118);
+}
+
+.incorrect {
+    background-color: rgb(206, 104, 104);
+}
+
+.answerbtn:hover:not([disabled]) {
+    background-color: brown;
+    color: aliceblue;
+}
+
+.answerbtn:disabled {
+    cursor: no-drop;
+}
